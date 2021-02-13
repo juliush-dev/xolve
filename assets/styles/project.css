@@ -1,0 +1,115 @@
+#projects .section-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    --cennsored: rgb(233, 232, 232);
+}
+
+.project {
+    flex: 1 30%;
+    position: relative;
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+
+.project-header {
+    margin-bottom: 15px;
+}
+
+.project-body {
+    margin-bottom: 10px;
+}
+#projects .project-illustration {
+    border-radius: 10px;
+}
+
+
+.project-name {
+    margin-bottom: 10px;
+}
+
+.project-source {
+    text-decoration: none;
+    display: inline-block;
+}
+.project-source .material-icons{
+    font-size: 18px;
+}
+
+.project-purpose {
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: start;
+}
+
+#projects .censored {
+    background-color: var(--cennsored);
+    color: var(--cennsored);
+}
+#projects .censored li{
+    color: var(--cennsored);
+}
+
+.project-techno {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project-techno span{
+    cursor: pointer;
+}
+
+.project ul {
+    list-style-type: none;
+    width: 50%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.project ul li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: medium;
+    color: black;
+}
+
+.project span {
+    display: inline;
+    margin-right: 8px;
+}
+
+.footer-copy{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    box-shadow: -6px 6px 20px rgba(0, 0, 0, .3);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer-copy ul li {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+@media (max-width: 500px){
+    .project:nth-child(even) {
+        margin: 0 0px 60px;
+    }
+    
+    #projects .section-content {
+        padding: 0 20px;
+    }
+    
+    #projects .section-content .project {
+        flex: auto;
+    }
+}
+
