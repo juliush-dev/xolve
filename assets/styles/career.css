@@ -48,7 +48,6 @@
     flex: 1 100%;
 }
 
-#career .fg-wrapper,
 #career .bg-wrapper {
     flex: auto;
 }
@@ -90,22 +89,17 @@
 #career .fg-wrapper tr:nth-child(2) p .message {
     display: inline-block;
     animation: alerteMessage 6s linear 0s infinite;
-    border-radius: 20px;
+    border-radius: 2px;
     padding: 8px;
-    background-color: tomato;
+    background-color: rgba(255, 99, 71);
     color: white;
     text-decoration: none;
-
+    opacity: 0.9;
+    transition: opacity .2s ease-in-out;
 }
 
-@keyframes alerteMessage {
-    from {
-        transform: translateX(250%);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
+#career .fg-wrapper tr:nth-child(2) p .message:hover{
+    opacity: 1;
 }
 
 @media (max-width: 900px) {

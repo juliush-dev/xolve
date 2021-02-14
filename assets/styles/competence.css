@@ -17,23 +17,9 @@
     flex-flow: column nowrap;
 }
 
-#competences .fg-wrapper .fg{
-    display: block;
+#competences .fg-wrapper .material-icons{
+    font-size: 18px;
 }
-
-#competences .fg-wrapper .fg:nth-child(1){
-    flex: auto;
-}
-#competences .fg-wrapper .fg:not(.domain){
-    display: flex;
-    align-items: center;
-    background-color: var(--primary-color);
-}
-
-
-
-
-
 
 #competences .bg-wrapper {
     display: inline-block;
@@ -42,11 +28,11 @@
     display: flex;
 }
 
-#competences .fg-wrapper .fg , #competences .bg-wrapper .bg {
+#competences .bg-wrapper .bg {
     flex: 1 100%;
 }
 
-#competences .fg-wrapper,
+
 #competences .bg-wrapper {
     flex: auto;
 }
@@ -66,7 +52,7 @@
     text-align: left;
 }
 
-#competences .fg-wrapper tr:nth-child(even) {
+#competences .fg-wrapper tr:not(:first-of-type){
     background-color: var(--primary-color);
 }
 

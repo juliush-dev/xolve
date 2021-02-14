@@ -20,28 +20,24 @@
   position: relative;
   margin-left: 0;
   transition: margin-left 3s ease-in-out;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.2rem;
-}
-
-#navigation #active-indicator {
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  transform: translateY(-54%);
-  margin-right: 5px;
-  font-size: 1.2rem;
+  transition: color .5s ease-in-out;
 }
 
 #navigation-wrapper ul li {
-  margin: 10px 10px;
+  padding: 10px 10px;
   position: relative;
 }
 
+#navigation-wrapper ul li a:hover{
+  color: rgba(0, 0, 0, 1);
+}
+
 #navigation-wrapper ul li .jump-to {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgba(0, 0, 0, .3);
   padding-bottom: 8px;
-  margin-bottom: 8px;
+  opacity: .5;
 }
 
 #navigation-button {
