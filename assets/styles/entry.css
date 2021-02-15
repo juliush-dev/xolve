@@ -11,14 +11,19 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    --bg-second-color: rgb(242, 242, 242);
+    --bg-first-color: white;
+    --pretty-color: rgb(12, 55, 68);
 }
 
 body > section:nth-child(odd){
-    background-color: white;
+    background-color: var(--bg-second-color);
 }
+
 body > section:nth-child(even){
-    background-color: rgb(242, 242, 242);
+    background-color: var(--bg-first-color);
 }
+
 body > section > .wrapper {
     width: 60%;
     margin: auto;
