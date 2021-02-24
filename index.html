@@ -1,603 +1,700 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/styles/main.css" />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+            />
 
-<head>
-    <meta charset="UTF-8">
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/main.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>xolve</title>
+    </head>
 
-    <title>xolve</title>
-</head>
+    <body>
+        <nav id="navigation">
+            <div id="navigation-wrapper">
+                <button id="navigation-button">
+                    <span class="material-icons"> menu </span>
+                </button>
 
-<body>
-    <nav id="navigation">
-        <div id="navigation-wrapper">
-            <button id="navigation-button"><span class="material-icons">
-                    menu
-                </span></button>
-
-            <ul id="navigation-elements">
-                <li>
-                    <h3 class="jump-to">Go To</h3>
-                </li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#competences">Competences</a></li>
-                <li>
-                    <a href="#academic">Academic</a>
-                </li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#career">Career</a></li>
-                <li><a href="#attribution">Attribution</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="greeting">
-        <div class="wrapper">
-            <div class="section-content">
-                <p>Always <span class="distinct">ready</span>  to learn new <span class="distinct">Skills</span></p>
+                <ul id="navigation-elements">
+                    <li>
+                        <h3 class="jump-to">Go To</h3>
+                    </li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#competences">Competences</a></li>
+                    <li>
+                        <a href="#academic">Academic</a>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#attribution">Attribution</a></li>
+                </ul>
             </div>
-        </div>
-    </section>
-    
-    <section id="projects">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">lock_open</span>
-                <h1>Open Source Projects</h1>
-            </header>
-            <div class="section-content">
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
-                                url('./assets/images/imgs/gof.svg') no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">Game Of Life</h3>
-                        <p class="project-purpose">
-                            A Simple command line based game without player.
-                            Game of life is a visualisation of
-                            cells living or death, that create special kinds
-                            of pattern in each generation.
-                        </p>
-                        <a href="https://github.com/juliush-dev/game-of-life" class="project-source">GitHub</a>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list">
-                            <li><span>Java</span></li>
-                        </ul>
-                    </footer>
-                </div>
+        </nav>
 
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
+        <section id="greeting">
+            <div class="wrapper">
+                <div class="section-content">
+                    <p>
+                        Always <span class="distinct">ready</span> to learn new
+                        <span class="distinct">Skills</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons">lock_open</span>
+                    <h1>Open Source Projects</h1>
+                </header>
+                <div class="section-content">
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background: url('./assets/images/imgs/gof.svg')
+                                no-repeat
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Game Of Life</h3>
+                            <p class="project-purpose">
+                                A Simple command line based game without player.
+                                Game of life is
+                                a visualisation of cells living or death, that
+                                create special
+                                kinds of pattern in each generation.
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/game-of-life"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>Java</span></li>
+                            </ul>
+                        </footer>
+                    </div>
+
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
                                 url('./assets/images/imgs/gifme.svg') no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">Gifme</h3>
-                        <p class="project-purpose">
-                            Or Get It For Me, is a UI based youtube
-                            video and audio downloader
-                            build on top of the most famous youtube CLI
-                            downloader <a href="https://youtube-dl.org/" style="color:lightcoral;">youtube-dll</a>
-                        </p>
-                        <a href="https://github.com/juliush-dev/gifme" class="project-source">GitHub</a>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list">
-                            <li><span>Java</span></li>
-                            <li><span>Css</span></li>
-                        </ul>
-                    </footer>
-                </div>
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Gifme</h3>
+                            <p class="project-purpose">
+                                Or Get It For Me, is a UI based youtube video
+                                and audio
+                                downloader build on top of the most famous
+                                youtube CLI
+                                downloader
+                                <a href="https://youtube-dl.org/" style="color:
+                                    lightcoral">youtube-dll</a>
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/gifme"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>Java</span></li>
+                                <li><span>Css</span></li>
+                            </ul>
+                        </footer>
+                    </div>
 
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
                                 url('./assets/images/imgs/fxbound.svg')
                                 no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">FxBounds</h3>
-                        <p class="project-purpose">
-                            FxBounds helps is a visual representation of
-                            Bounding Rectangles in javafx.
-                            It was build to help some of my friends
-                            understanding this concept to take advantage of
-                            it in their personal projects.
-                        </p>
-                        <a href="https://github.com/juliush-dev/fxBounds" class="project-source">GitHub</a>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list">
-                            <li><span>Java</span></li>
-                            <li><span>CSS</span></li>
-                        </ul>
-                    </footer>
-                </div>
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">FxBounds</h3>
+                            <p class="project-purpose">
+                                FxBounds helps is a visual representation of
+                                Bounding Rectangles
+                                in javafx. It was build to help some of my
+                                friends understanding
+                                this concept to take advantage of it in their
+                                personal projects.
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/fxBounds"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>Java</span></li>
+                                <li><span>CSS</span></li>
+                            </ul>
+                        </footer>
+                    </div>
 
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
                                 url('./assets/images/imgs/labyrinth.svg')
-                                no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">Labyrinth</h3>
-                        <p class="project-purpose">
-                            Is a python two-player console based game, where
-                            the mission is to get out of a labyrinth.
-                            It was initialy build als gif for my little
-                            brothers :)
-                        </p>
-                        <a href="https://github.com/juliush-dev/labyrinth" class="project-source">GitHub</a>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list">
-                            <li><span>Python</span></li>
-                        </ul>
-                    </footer>
-                </div>
+                                no-repeat center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Labyrinth</h3>
+                            <p class="project-purpose">
+                                Is a python two-player console based game, where
+                                the mission is
+                                to get out of a labyrinth. It was initialy build
+                                als gif for my
+                                little brothers :)
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/labyrinth"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>Python</span></li>
+                            </ul>
+                        </footer>
+                    </div>
 
-
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
                                 url('./assets/images/imgs/fxbound.svg')
                                 no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">Xolve</h3>
-                        <p class="project-purpose">
-                            Yes! This Webpage was a project that I made
-                            while learning JavaScript!
-                            It represents my digital indentity, so people
-                            can easely have an overview on me.
-                        </p>
-                        <a href="https://github.com/juliush-dev/xolve" class="project-source">GitHub</a>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list">
-                            <li><span>JavaScript</span></li>
-                            <li><span>HTML</span></li>
-                            <li><span>CSS</span></li>
-                        </ul>
-                    </footer>
-                </div>
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Xolve</h3>
+                            <p class="project-purpose">
+                                Yes! This Webpage was a project that I made
+                                while learning
+                                JavaScript! It represents my digital indentity,
+                                so people can
+                                easely have an overview on me.
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/xolve"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>JavaScript</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                            </ul>
+                        </footer>
+                    </div>
 
-                <div class="project">
-                    <header class=project-header>
-                        <div class="project-illustration" style="width:
-                                150px; height: 150px; background:
+                    <div class="project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
                                 url('./assets/images/imgs/ritual.svg') no-repeat
-                                center / cover;">
-                        </div>
-                    </header>
-                    <section class="project-body">
-                        <h3 class="project-name">Ritual</h3>
-                        <p class="project-purpose">
-                            Actually in conception phase, Ritual will be a
-                            web based gamified learning platform.
-                            People will create flash cards for different
-                            topics <bdo dir="rtl" class="censored">
-                                then the will take a certain period of time
-                                to learn theses cards
-                            </bdo>...
-                        </p>
-                        <span class="project-source censored">GitHub</span>
-                    </section>
-                    <footer class="project-footer minimized">
-                        <h4 class="project-techno">Technologies <span class="material-icons">
-                                fullscreen
-                            </span></h4>
-                        <ul class="project-techno-list censored">
-                            <li><span>****</span></li>
-                            <li><span>****</span></li>
-                        </ul>
-                    </footer>
-                </div>
-
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <section id="about-me">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">sentiment_satisfied_alt</span>
-                <h1>About me</h1>
-            </header>
-            <div class="section-content">
-                <p class=summary>
-                    My name is <span class="name">Julius Herbert</span>.
-                    I
-                    am currently pursuing a
-                    Bachelor degree in Computer Science at Westfaeliche
-                    Hochschule. I have a <span class="language">native
-                        level
-                        of French</span>, <span class="language">Yemba
-                        as
-                        mother tongue</span>
-                    , an <span class="language">intermediate level of
-                        english</span>, and an
-                    <span class="language">intermediate
-                        level of German</span>. One of my strengths is
-                    the
-                    ability to learn
-                    new
-                    topics quickly. I am mainly self-taugth.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section id="competences">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">
-                    construction
-                </span>
-                <h1>Competences</h1>
-            </header>
-            <div class="section-content">
-                <div class="fg-wrapper">
-                    <table class="fg domain">
-                        <tr>
-                            <th>Domain</th>
-                            <th><span class="hidden-field">*</span></th>
-                        </tr>
-                        <tr>
-                            <td rowspan="5"><span class="material-icons" title="language skills">g_translate</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field"></span></td>
-                        </tr>
-                        <tr class="transition hidden-field"><td>*</td></tr>
-                        <tr>
-                            <td rowspan="5"><span class="material-icons" title="programming skills">code</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        <tr class="transition hidden-field"><td>*</td></tr>
-                        <tr>
-                            <td><span class="material-icons" title="tools">build</span></td>
-                            <td><span class="hidden-field">*</span></td>
-                        </tr>
-                        
-                    </table>
-                </div>
-                <div class="dev-wrapper bg-wrapper">
-                    <table class="bg">
-                        <tr>
-                            <th>Knowledge</th>
-                            <th>Experience</th>
-                            <th>Level</th>
-                        </tr>
-                        <tr>
-                            <td>Yemba</td>
-                            <td>-</td>
-                            <td>Native</td>
-                        </tr>
-                        <tr>
-                            <td>French</td>
-                            <td>-</td>
-                            <td>Native</td>
-                        </tr>
-                        <tr>
-                            <td>German</td>
-                            <td>-</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>English</td>
-                            <td>-</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr class="hidden-field">
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>1 year</td>
-                            <td>Advance</td>
-                        </tr>
-                        <tr>
-                            <td>JavaScript</td>
-                            <td>5 months</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>5 months</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>5 months</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr class="hidden-field">
-                            <td>*</td>
-                        </tr>
-                        <tr>
-                            <td>Git</td>
-                            <td title="meaning I learn a functiality just when needed">seasonal</td>
-                            <td>Intermediate</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="academic">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">
-                    school
-                </span>
-
-                <h1>Academic</h1>
-            </header>
-            <div class="section-content">
-                <div class="fg-wrapper">
-                    <table class="fg">
-                        <tr>
-                            <th>Certification</th>
-                        </tr>
-                        <tr>
-                            <td>I-Certificate</td>
-                        </tr>
-                        <tr>
-                            <td><span>BEPC</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>Probatoire</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>Baccalaureat</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>A1</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>B1</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>B2 & TestDaf</span></td>
-                        </tr>
-                        <tr>
-                            <td><span>***</span></td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="bg-wrapper">
-                    <table class="bg">
-
-                        <tr>
-                            <th>Institution</th>
-                            <th>Country</th>
-                            <th>Start Period</th>
-                            <th>End Period</th>
-                        </tr>
-                        <!-- I=CERF -->
-                        <tr>
-                            <td title="Institut of Sciences and
-                                    Innovating
-                                    Technologies of Africa">ISTIA</td>
-                            <td>Cameroon</td>
-                            <td>2010</td>
-                            <td>2011</td>
-                        </tr>
-                        <!-- BEPC -->
-                        <tr>
-                            <td title="Lycee de Ngousso Ngoulmekong">LYNGO</td>
-                            <td>Cameroon</td>
-                            <td>2014</td>
-                            <td>2015</td>
-                        </tr>
-                        <!-- PROB -->
-                        <tr>
-                            <td title="College B-Olive">CBO</td>
-                            <td>Cameroon</td>
-                            <td>2014</td>
-                            <td>2015</td>
-                        </tr>
-                        <!-- BAC -->
-                        <tr>
-                            <td title="College B-Olive">CBO</td>
-                            <td>Cameroon</td>
-                            <td>2015</td>
-                            <td>2015</td>
-                        </tr>
-                        <!-- A1 -->
-                        <tr>
-                            <td>Goethe Instutut</td>
-                            <td>Cameroon</td>
-                            <td>2017</td>
-                            <td>2018</td>
-                        </tr>
-                        <!-- B1 -->
-
-                        <tr>
-                            <td>Germanica</td>
-                            <td>Cameroon</td>
-                            <td>2017</td>
-                            <td>2018</td>
-                        </tr>
-                        <!-- B2 -->
-                        <tr>
-                            <td title="Ruhr universitaet Bochum">RUB
-                                Zentrum</td>
-                            <td>Germany</td>
-                            <td>2017</td>
-                            <td>2018</td>
-                        </tr>
-                        <!-- WHS -->
-                        <tr>
-                            <td title="Westfaeliche Hochschule">WHS</td>
-                            <td>Germany</td>
-                            <td>2019</td>
-                            <td>Until Now</td>
-                        </tr>
-
-
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">connect_without_contact</span>
-                <h1>Get In Touch</h1>
-            </header>
-            <div class="section-content">
-                <address>
-                    <span class="material-icons">email</span>&nbsp;
-                    <a href="mailto:juliush.dev@gmail.com">Email Me</a>
-                </address>
-            </div>
-        </div>
-    </section>
-
-    <section id="career">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">engineering</span>
-                <h1>Career</h1>
-            </header>
-            <div class="first-company">
-                <span class="material-icons">south</span>&nbsp;
-                <p class="guide">Let this Story start with the name of your Company</p>
-            </div>
-            <div class="section-content">
-                <div class="fg-wrapper">
-                    <table class="fg">
-                        <tr>
-                            <th>Company</th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p><a href="mailto:juliush.dev@gmail.com" class="message">&#128526; Be The
-                                        First &#128526;</span></p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="bg-wrapper">
-                    <table class="bg">
-
-                        <tr>
-                            <th>Company Web Site</th>
-                            <th>My Role</th>
-                            <th>Comment</th>
-                            <th>Start Period</th>
-                            <th>End Period</th>
-                        </tr>
-                        <!-- BEPC -->
-                        <tr>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                            <td>--</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="attribution">
-        <div class="wrapper">
-            <header class="section-header">
-                <span class="material-icons">attribution</span>
-                <h1>Attribution</h1>
-            </header>
-            <div class="section-content">
-                <div class="message">
-                    <p class="citation">Sometimes <span class="simple">Simplicity</span>
-                        is what
-                        creates <span class="complex">Complexity</span></p>
-                </div>
-                <div class="attribution-list">
-                    <p>made possible thanks to</p>
-                    <div class="icon-source">
-                        <ul>
-                            <li><a href="https://material.io/resources/icons/?style=baseline">material-icons</a></li>
-                            <li><a href="https://undraw.co/">undraw</a></li>
-                        </ul>
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Ritual</h3>
+                            <p class="project-purpose">
+                                Actually in conception phase, Ritual will be a
+                                web based
+                                gamified learning platform. People will create
+                                flash cards for
+                                different topics
+                                <bdo dir="rtl" class="censored">
+                                    then the will take a certain period of time
+                                    to learn theses
+                                    cards </bdo>...
+                            </p>
+                            <span class="project-source censored">GitHub</span>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list censored">
+                                <li><span>****</span></li>
+                                <li><span>****</span></li>
+                            </ul>
+                        </footer>
+                    </div>
+                    <div class="project last-project">
+                        <header class="project-header">
+                            <div
+                                class="project-illustration"
+                                style="width: 150px;
+                                height: 150px;
+                                background:
+                                url('./assets/images/imgs/creact.svg') no-repeat
+                                center / cover;"></div>
+                        </header>
+                        <section class="project-body">
+                            <h3 class="project-name">Creact</h3>
+                            <p class="project-purpose">
+                                A Collection of react Components that I am
+                                building while learning React JS.
+                                For those learning also react, they can clone
+                                the repository to dive into
+                                the code to explore how each Component is
+                                implemented.
+                            </p>
+                            <a
+                                href="https://github.com/juliush-dev/creact"
+                                class="project-source">GitHub</a>
+                        </section>
+                        <footer class="project-footer minimized">
+                            <h4 class="project-techno">
+                                Technologies <span class="material-icons">
+                                    fullscreen </span>
+                            </h4>
+                            <ul class="project-techno-list">
+                                <li><span>React</span></li>
+                                <li><span>JavaScript</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>CSS</span></li>
+                            </ul>
+                        </footer>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </div>
-    </section>
+        <section id="about-me">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons">sentiment_satisfied_alt</span>
+                    <h1>About me</h1>
+                </header>
+                <div class="section-content">
+                    <p class="summary">
+                        My name is <span class="name">Julius Herbert</span>. I
+                        am currently
+                        pursuing a Bachelor degree in Computer Science at
+                        Westfaeliche
+                        Hochschule. I have a
+                        <span class="language">native level of French</span>,
+                        <span class="language">Yemba as mother tongue</span> ,
+                        an
+                        <span class="language">intermediate level of english</span>,
+                        and an
+                        <span class="language">intermediate level of German</span>.
+                        One of
+                        my strengths is the ability to learn new topics quickly.
+                        I am mainly
+                        self-taugth.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <section id="competences">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons"> construction </span>
+                    <h1>Competences</h1>
+                </header>
+                <div class="section-content">
+                    <div class="fg-wrapper">
+                        <table class="fg domain">
+                            <tr>
+                                <th>Domain</th>
+                                <th><span class="hidden-field">*</span></th>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">
+                                    <span class="material-icons" title="language
+                                        skills">g_translate</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field"></span></td>
+                            </tr>
+                            <tr class="transition hidden-field">
+                                <td>*</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">
+                                    <span class="material-icons"
+                                        title="programming skills">code</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                            <tr class="transition hidden-field">
+                                <td>*</td>
+                            </tr>
+                            <tr>
+                                <td><span class="material-icons" title="tools">build</span></td>
+                                <td><span class="hidden-field">*</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="dev-wrapper bg-wrapper">
+                        <table class="bg">
+                            <tr>
+                                <th>Knowledge</th>
+                                <th>Experience</th>
+                                <th>Level</th>
+                            </tr>
+                            <tr>
+                                <td>Yemba</td>
+                                <td>-</td>
+                                <td>Native</td>
+                            </tr>
+                            <tr>
+                                <td>French</td>
+                                <td>-</td>
+                                <td>Native</td>
+                            </tr>
+                            <tr>
+                                <td>German</td>
+                                <td>-</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td>English</td>
+                                <td>-</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr class="hidden-field">
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>1 year</td>
+                                <td>Advance</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>5 months</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td>React JS</td>
+                                <td>Learning</td>
+                                <td>Beginner</td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>5 months</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>5 months</td>
+                                <td>Intermediate</td>
+                            </tr>
+                            <tr class="hidden-field">
+                                <td>*</td>
+                            </tr>
+                            <tr>
+                                <td>Git</td>
+                                <td
+                                    title="meaning I learn a functiality just
+                                    when needed">
+                                    seasonal
+                                </td>
+                                <td>Intermediate</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script type="module" rel="text/javascript" src="assets/scripts/main.js" type=""></script>
-    <script src="https://kit.fontawesome.com/c6eaf0f9b6.js" crossorigin="anonymous"></script>
-</body>
+        <section id="academic">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons"> school </span>
 
+                    <h1>Academic</h1>
+                </header>
+                <div class="section-content">
+                    <div class="fg-wrapper">
+                        <table class="fg">
+                            <tr>
+                                <th>Certification</th>
+                            </tr>
+                            <tr>
+                                <td>I-Certificate</td>
+                            </tr>
+                            <tr>
+                                <td><span>BEPC</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>Probatoire</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>Baccalaureat</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>A1</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>B1</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>B2 & TestDaf</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>***</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bg-wrapper">
+                        <table class="bg">
+                            <tr>
+                                <th>Institution</th>
+                                <th>Country</th>
+                                <th>Start Period</th>
+                                <th>End Period</th>
+                            </tr>
+                            <!-- I=CERF -->
+                            <tr>
+                                <td
+                                    title="Institut of Sciences and
+                                    Innovating
+                                    Technologies of Africa">
+                                    ISTIA
+                                </td>
+                                <td>Cameroon</td>
+                                <td>2010</td>
+                                <td>2011</td>
+                            </tr>
+                            <!-- BEPC -->
+                            <tr>
+                                <td title="Lycee de Ngousso Ngoulmekong">LYNGO</td>
+                                <td>Cameroon</td>
+                                <td>2014</td>
+                                <td>2015</td>
+                            </tr>
+                            <!-- PROB -->
+                            <tr>
+                                <td title="College B-Olive">CBO</td>
+                                <td>Cameroon</td>
+                                <td>2014</td>
+                                <td>2015</td>
+                            </tr>
+                            <!-- BAC -->
+                            <tr>
+                                <td title="College B-Olive">CBO</td>
+                                <td>Cameroon</td>
+                                <td>2015</td>
+                                <td>2015</td>
+                            </tr>
+                            <!-- A1 -->
+                            <tr>
+                                <td>Goethe Instutut</td>
+                                <td>Cameroon</td>
+                                <td>2017</td>
+                                <td>2018</td>
+                            </tr>
+                            <!-- B1 -->
+
+                            <tr>
+                                <td>Germanica</td>
+                                <td>Cameroon</td>
+                                <td>2017</td>
+                                <td>2018</td>
+                            </tr>
+                            <!-- B2 -->
+                            <tr>
+                                <td title="Ruhr universitaet Bochum">RUB Zentrum</td>
+                                <td>Germany</td>
+                                <td>2017</td>
+                                <td>2018</td>
+                            </tr>
+                            <!-- WHS -->
+                            <tr>
+                                <td title="Westfaeliche Hochschule">WHS</td>
+                                <td>Germany</td>
+                                <td>2019</td>
+                                <td>Until Now</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons">connect_without_contact</span>
+                    <h1>Get In Touch</h1>
+                </header>
+                <div class="section-content">
+                    <address>
+                        <span class="material-icons">email</span>&nbsp;
+                        <a href="mailto:juliush.dev@gmail.com">Email Me</a>
+                    </address>
+                </div>
+            </div>
+        </section>
+
+        <section id="career">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons">engineering</span>
+                    <h1>Career</h1>
+                </header>
+                <div class="first-company">
+                    <span class="material-icons">south</span>&nbsp;
+                    <p class="guide">
+                        Let this Story start with the name of your Company
+                    </p>
+                </div>
+                <div class="section-content">
+                    <div class="fg-wrapper">
+                        <table class="fg">
+                            <tr>
+                                <th>Company</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>
+                                        <a href="mailto:juliush.dev@gmail.com"
+                                            class="message">&#128526; Be The
+                                            First &#128526;</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bg-wrapper">
+                        <table class="bg">
+                            <tr>
+                                <th>Company Web Site</th>
+                                <th>My Role</th>
+                                <th>Comment</th>
+                                <th>Start Period</th>
+                                <th>End Period</th>
+                            </tr>
+                            <!-- BEPC -->
+                            <tr>
+                                <td>--</td>
+                                <td>--</td>
+                                <td>--</td>
+                                <td>--</td>
+                                <td>--</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="attribution">
+            <div class="wrapper">
+                <header class="section-header">
+                    <span class="material-icons">attribution</span>
+                    <h1>Attribution</h1>
+                </header>
+                <div class="section-content">
+                    <div class="message">
+                        <p class="citation">
+                            Sometimes <span class="simple">Simplicity</span> is
+                            what creates
+                            <span class="complex">Complexity</span>
+                        </p>
+                    </div>
+                    <div class="attribution-list">
+                        <p>made possible thanks to</p>
+                        <div class="icon-source">
+                            <ul>
+                                <li>
+                                    <a
+                                        href="https://material.io/resources/icons/?style=baseline">material-icons</a>
+                                </li>
+                                <li><a href="https://undraw.co/">undraw</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script
+            type="module"
+            rel="text/javascript"
+            src="assets/scripts/main.js"
+            type=""></script>
+        <script
+            src="https://kit.fontawesome.com/c6eaf0f9b6.js"
+            crossorigin="anonymous"></script>
+    </body>
 </html>

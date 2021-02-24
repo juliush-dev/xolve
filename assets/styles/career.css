@@ -23,11 +23,6 @@
     line-height: 1.8rem;
 }
 
-#career .first-company .guide span {
-    display: inline;
-    border-bottom: 1px solid rgba(255, 99, 71, 0.582);
-}
-
 #career .fg-wrapper {
     display: inline-block;
     margin-right: -2px;
