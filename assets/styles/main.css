@@ -83,6 +83,7 @@ body {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   font-size: 1.1rem;
+  display: none;
 }
 .detailed-view .material-icons {
   font-size: 1em;
@@ -105,8 +106,7 @@ body {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
   background: inherit;
-  overflow: hidden;
-  display: none;
+  overflow: auto;
   transition: all 2s;
 }
 
@@ -203,8 +203,9 @@ header .material-icons {
 *::-webkit-scrollbar-thumb {
   background: linear-gradient(
     80deg,
-    var(--cadet-grey) 0%,
-    var(--arylide-yellow) 50%
+    var(--bittersweet) 0%,
+    var(--sea-green-crayola) 50%,
+    var(--arylide-yellow) 100%
   );
   border-radius: 5px;
 }
