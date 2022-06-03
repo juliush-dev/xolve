@@ -25,32 +25,33 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
-  height: 90%;
-  overflow: hidden;
-  border-radius: 20px;
+  justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  --e: 2%;
+  --e: 3rem;
+  width: 400px;
+  height: clamp(600px, 800px, 800px);
 }
 
 .my-name {
   position: relative;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 100%;
   text-transform: uppercase;
   color: var(--arylide-yellow);
   opacity: 0.5;
-  flex-basis: var(--e);
-  padding: 5px 0;
 }
 #hero {
   /* background: url("../images/me.jpg") no-repeat center / cover; */
   display: flex;
   flex-direction: column;
+  max-height: 90%;
+  overflow: hidden;
   width: 100%;
   padding: 0;
   flex-grow: 1;
@@ -60,21 +61,14 @@ body {
 
 .actions-panel {
   color: white;
-  text-align: center;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style-type: none;
-  padding: 4px;
-  flex-basis: var(--e);
+  margin: 0 !important;
 }
 
-.actions-panel li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .actions-panel .material-icons {
   font-size: 2rem;
 }
@@ -213,4 +207,16 @@ header .material-icons {
     var(--arylide-yellow) 50%
   );
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 99vw;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .container {
+    height: 99.9vh;
+  }
 }
