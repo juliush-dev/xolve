@@ -1,4 +1,4 @@
-/* #greeting {
+#greeting {
     position: sticky;
     top: 0;
     z-index: 8;
@@ -27,4 +27,4 @@
         text-align: left;
         padding-left: 10px;
     }
-} */
+}

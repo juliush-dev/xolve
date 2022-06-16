@@ -3,20 +3,14 @@
   align-items: center;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 5px;
   --cennsored: rgb(233, 232, 232);
 }
 
 #projects .project {
-  flex: 50%;
-  display: flex;
+  flex: 1 30%;
   position: relative;
   margin-bottom: 60px;
   margin-right: 30px;
-  height: clamp(200px, 400px, 500px);
-  width: clamp(400px, 800px, 1000px);
-  border: 1px solid red;
-  list-style-type: none;
 }
 
 #projects .last-project {
@@ -32,9 +26,6 @@
 }
 #projects .project-illustration {
   border-radius: 10px;
-  height: 100%;
-  width: calc(100% / 2);
-  border: 1px solid grey;
 }
 
 #projects .project-name {
