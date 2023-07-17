@@ -18,7 +18,7 @@
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
 
-    <body class="d-flex flex-column overflow-hidden pt-5" x-data="site" style="height: 96vh">
+    <body class="d-flex flex-column overflow-hidden pt-5" x-data="site" style="height: 99vh">
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top p-3">
             <div class="container">
                 <a class="navbar-brand" href="#">Let's build it together 🙂!</a>
@@ -55,12 +55,12 @@
                 <section x-show="openedPage == page.id" :id="page.id"
                          class="bg-body-tertiary h-100 w-100 overflow-hidden position-absolute top-0 start-0 end-0 bottom-0"
                          x-transition.duration.500ms>
-                    <div :id="`${page.id}-content`"></div>
+                    <div class="h-100" :id="`${page.id}-content`"></div>
                 </section>
             </template>
         </main>
         <template x-teleport="#about-me-content">
-            <div class="d-flex" style="height: 90vh">
+            <div class="d-flex h-100">
                 <div class="w-100 flex-shrink-1 overflow-y-auto h-100 p-3 px-0 px-md-5 mb-5">
                     <h1 class="mb-3 d-md-none">About me</h1>
                     <p><span class="text-success mb-2 d-block">My name is <b>Julius Herbert Taguebou</b>,</span>I
@@ -118,7 +118,7 @@
             </div>
         </template>
         <template x-teleport="#projects-content">
-            <div class="d-flex" style="height: 90vh">
+            <div class="d-flex h-100">
                 <div class="w-100 flex-shrink-1 overflow-y-auto h-100 p-4 p-md-4 mb-5">
                     <h1 class="mb-4 d-md-none">Projects</h1>
                     <div
@@ -152,7 +152,7 @@
             </div>
         </template>
         <template x-teleport="#competences-content">
-            <div class="d-flex" style="height: 90vh">
+            <div class="d-flex h-100">
                 <div class="w-100 flex-shrink-1 overflow-y-auto h-100 p-4 p-md-4 mb-5">
                     <h1 class="mb-4 d-md-none">Competences</h1>
                     <div class="d-flex flex-column w-100">
@@ -253,7 +253,7 @@
             </div>
         </template>
         <template x-teleport="#contact-me-content">
-            <div class="d-flex" style="height: 90vh">
+            <div class="d-flex h-100">
                 <div
                      class="d-flex gap-3 p-3 flex-column text-md-center justify-content-md-center align-content-md-center w-100 h-100 flex-grow-0 bg-warning-subtle p-4 p-md-0">
                     <i class="d-none d-md-inline  bi-envelope-at" style="font-size: 2rem;"></i>
@@ -265,7 +265,7 @@
             </div>
         </template>
         <template x-teleport="#attributions-content">
-            <div class="d-flex" style="height: 90vh">
+            <div class="d-flex h-100">
                 <div class="w-100 flex-shrink-1 overflow-y-auto h-100 p-4 p-md-4">
                     <h1 class="mb-3 d-md-none">Attributions</h1>
                     <div class="d-flex flex-column me-md-5">
