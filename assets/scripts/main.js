@@ -2,7 +2,7 @@ document.addEventListener("alpine:init", () => {
   Alpine.data("site", () => ({
     openedPage: "about-me",
     navigationOpened: false,
-    startPage: "competences",
+    startPage: "about-me",
     menus: [
       {
         id: "about-me",
