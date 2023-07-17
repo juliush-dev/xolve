@@ -2,7 +2,7 @@ document.addEventListener("alpine:init", () => {
   Alpine.data("site", () => ({
     openedPage: "about-me",
     navigationOpened: false,
-    startPage: "competences",
+    startPage: "about-me",
     menus: [
       {
         id: "about-me",
@@ -44,7 +44,7 @@ document.addEventListener("alpine:init", () => {
             id: "mm",
             title: "Modules manager",
             github: "",
-            image: "/assets/images/mm.jpg",
+            image: "assets/images/mm.jpg",
             description: `
             Developed collaboratively with a colleague, the Modules Manager is a web-based tool that efficiently manages modules. It provides students with a well-structured table, enabling them to quickly find the starting dates of each module in their curriculum. It simplifies the process of building and publishing a comprehensive module schedule.
             `,
@@ -128,76 +128,76 @@ document.addEventListener("alpine:init", () => {
         content: {
           languages: [
             {
-              icon: "/assets/images/flag-cam.png",
+              icon: "assets/images/flag-cam.png",
               title: "Yemba",
               xp: "pro",
             },
             {
-              icon: "/assets/images/lang-french.png",
+              icon: "assets/images/lang-french.png",
               title: "French",
               xp: "pro",
             },
             {
-              icon: "/assets/images/flag-german.png",
+              icon: "assets/images/flag-german.png",
               title: "German",
               xp: "int",
             },
             {
-              icon: "/assets/images/flag-uk.png",
+              icon: "assets/images/flag-uk.png",
               title: "English",
               xp: "int",
             },
           ],
           programming: [
             {
-              icon: "/assets/images/prog-php.png",
+              icon: "assets/images/prog-php.png",
               title: "PHP",
               xp: "int",
             },
             {
-              icon: "/assets/images/prog-js.png",
+              icon: "assets/images/prog-js.png",
               title: "Javascript",
               xp: "int",
             },
             {
-              icon: "/assets/images/prog-sql.png",
+              icon: "assets/images/prog-sql.png",
               title: "SQL",
               xp: "int",
             },
             {
-              icon: "/assets/images/prog-java.png",
+              icon: "assets/images/prog-java.png",
               title: "Java",
               xp: "mid",
             },
             {
-              icon: "/assets/images/prog-python.png",
+              icon: "assets/images/prog-python.png",
               title: "Python",
               xp: "mid",
             },
           ],
           tools: [
             {
-              icon: "/assets/images/tool-linux.png",
+              icon: "assets/images/tool-linux.png",
               title: "Linux",
               xp: "int",
             },
             {
-              icon: "/assets/images/tool-win.png",
+              icon: "assets/images/tool-win.png",
               title: "Windows",
               xp: "int",
             },
             {
-              icon: "/assets/images/tool-apache.png",
+              icon: "assets/images/tool-apache.png",
               title: "Apche Web Server",
               xp: "int",
             },
             {
-              icon: "/assets/images/tool-git.png",
+              icon: "assets/images/tool-git.png",
               title: "Git & GitHub",
               xp: "int",
             },
             {
-              icon: "/assets/images/tool-365.png",
+              icon: "assets/images/tool-365.png",
               title: "MS Suite",
               xp: "mid",
             },
