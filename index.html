@@ -18,7 +18,7 @@
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     </head>
 
-    <body class="d-flex flex-column overflow-hidden pt-5" x-data="site" style="height: 99vh">
+    <body class="d-flex flex-column overflow-hidden pt-5" x-data="site" style="height: 99.6vh">
         <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top p-3">
             <div class="container">
                 <a class="navbar-brand" href="#">Let's build it together 🙂!</a>
@@ -103,7 +103,7 @@
                             website. I hope you have a great time! 🙂
                         </p>
                     </div>
-                    <div class="bg-info-subtle p-3 rounded d-flex gap-3 mb-3">
+                    <div class="bg-info-subtle p-3 rounded d-flex gap-3 mb-5">
                         <p class="fw-bold text-black"><i class="bi bi-info-circle"></i></p>
                         <p>
                             Don't hesitate to reach out if you need assistance with anything!
@@ -122,7 +122,7 @@
                 <div class="w-100 flex-shrink-1 overflow-y-auto h-100 p-4 p-md-4 mb-5">
                     <h1 class="mb-4 d-md-none">Projects</h1>
                     <div
-                         class="w-100 overflow-hidden overflow-y-auto d-flex gap-5 flex-column flex-md-row flex-wrap align-content-md-center">
+                         class="w-100 overflow-hidden overflow-y-auto d-flex gap-5 flex-column flex-md-row flex-wrap align-content-md-center mb-5">
                         <template x-for="(project, index) in pages[1].content">
                             <div class="card flex-md-fill flex-sm-grow-1 flex-md-grow-0 w-100" :id="project.id">
                                 <img :src="project.image" class="card-img-top" alt="project.id" />
