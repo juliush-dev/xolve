@@ -1,37 +1,44 @@
 #attribution .section-content {
-    --primary-color: rgb(242, 242, 242);
-    overflow: hidden;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+  --primary-color: rgb(242, 242, 242);
+  overflow: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-
 #attribution .section-content .message {
-    margin: 20px 0;
-    text-align: center;
-    color: rgb(108, 103, 138);
+  margin: 20px 0;
+  text-align: center;
+  color: rgb(108, 103, 138);
 }
 
 #attribution .section-content .message .complex,
 #attribution .section-content .message .simple {
-    font-size: larger;
+  font-size: larger;
 }
-#attribution .section-content .attribution-list{
-    text-align: center;
+#attribution .section-content .attribution-list {
+  text-align: center;
 }
-#attribution .section-content .attribution-list > p{
-    font-size: small;
-    font-weight: 700;
-}
-
-#attribution .section-content .attribution-list ul{
-    margin: 20px;
-    text-align: left;
+#attribution .section-content .attribution-list > p {
+  font-size: small;
+  font-weight: 700;
 }
 
-#attribution .section-content .attribution-list ul a{
-   text-decoration: none;
+#attribution .section-content .attribution-list ul {
+  margin: 20px;
+  text-align: left;
 }
 
+#attribution .section-content .attribution-list ul a {
+  text-decoration: none;
+}
+
+#atbs {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://images.unsplash.com/photo-1636436066657-bb2a17522961?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -41,6 +41,15 @@ document.addEventListener("alpine:init", () => {
         title: "Projects",
         content: [
           {
+            id: "scb",
+            title: "ScholarBox",
+            github: "https://github.com/juliush-dev/radar",
+            image: "./radar-pc-skills.png",
+            description: `
+            ScholarBox, an E-Learning-Resources-distribution Platform Web App. your go-to destination for finding all the resources you need to explore a particular topic. Simply browse the extensive topic catalog to discover what you require.
+            `,
+          },
+          {
             id: "mm",
             title: "Modules manager",
             github: "",
